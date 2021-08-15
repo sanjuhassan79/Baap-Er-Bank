@@ -13,7 +13,7 @@ document.getElementById('login-submit').addEventListener('click', () => {
     const userPasswordValue = userPassword.value;
     // userPassword.value = '';
 
-    if (userEmailValur == 'sanjuhassan560@gmail.com' && userPassword == 'sanju') {
+    if (userEmail == 'sontan@baap.com' && userPassword == 'sanju') {
         window.location.href = 'banking.html';
     } else {
         console.log('ther user show the valid user and password');
