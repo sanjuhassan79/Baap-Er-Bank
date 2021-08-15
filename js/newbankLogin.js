@@ -13,10 +13,10 @@ document.getElementById('login-submit').addEventListener('click', () => {
     const userPasswordValue = userPassword.value;
     // userPassword.value = '';
 
-    if (userEmail == 'sontan@baap.com' && userPassword == 'sanju') {
+    if (userEmailValur == 'sanjuhassan560@gmail.com' && userPasswordValue == 'sanju') {
         window.location.href = 'banking.html';
     } else {
-        console.log('ther user show the valid user and password');
+        console.log('ther user show the valid user and password 11');
     }
 
 
